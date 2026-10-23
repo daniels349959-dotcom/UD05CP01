@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+    <Button
+            android:id="@+id/botonFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Elegir fecha de nacimiento" />
+
+    <TextView
+            android:id="@+id/textoFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Fecha de nacimiento:"
+            android:textSize="20sp" />
+
+    <TextView
+            android:id="@+id/textoAnios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Años cumplidos:"
+            android:textSize="20sp" />
+
+    <TextView
+            android:id="@+id/textoDias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Días totales vividos:"
+            android:textSize="20sp" />
+
+</LinearLayout>
